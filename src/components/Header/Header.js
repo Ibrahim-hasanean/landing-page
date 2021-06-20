@@ -33,7 +33,7 @@ const Header = () => {
     setCheked(true);
   }, []);
   return (
-    <Grid className={classes.root} container justify="flex-start">
+    <Grid id="header" className={classes.root} container justify="flex-start">
       <Collapse timeout="auto" in={checked}>
         <Grid item>
           <Typography className={classes.text} variant="h2">

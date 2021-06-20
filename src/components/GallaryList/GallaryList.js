@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles, Grid, Container } from "@material-ui/core";
-
 import hotel1 from "../../assets/images/hotel1.jpg";
 import hotel2 from "../../assets/images/hotel2.jpg";
 import hotel3 from "../../assets/images/hotel3.jpg";

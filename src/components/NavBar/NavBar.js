@@ -6,6 +6,7 @@ import {
   makeStyles,
   Container,
   Button,
+  Link,
 } from "@material-ui/core";
 
 let useStyle = makeStyles((theme) => ({
@@ -34,11 +35,37 @@ const NavBar = () => {
             </Typography>
           </Grid>
           <Grid item>
-            <Button className={classes.button}>Home</Button>
-            <Button className={classes.button}>Search</Button>
-            <Button className={classes.button}>Explore</Button>
-            <Button className={classes.button}>Gallary</Button>
-            <Button className={classes.button}>Contact Us</Button>
+            <Button className={classes.button}>
+              <Link href="#header" color="inherit">
+                {" "}
+                Home
+              </Link>
+            </Button>
+            <Button className={classes.button}>
+              <Link href="#search" color="inherit">
+                {" "}
+                Search
+              </Link>
+            </Button>
+            <Button className={classes.button}>
+              {" "}
+              <Link href="#explore" color="inherit">
+                Explore
+              </Link>
+              E
+            </Button>
+            <Button className={classes.button}>
+              <Link href="#gallary" color="inherit">
+                {" "}
+                Gallary
+              </Link>
+            </Button>
+            <Button className={classes.button}>
+              {" "}
+              <Link href="#contact" color="inherit">
+                Contact Us
+              </Link>{" "}
+            </Button>
           </Grid>
         </Grid>
       </Container>

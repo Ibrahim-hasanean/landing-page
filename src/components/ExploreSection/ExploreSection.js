@@ -42,6 +42,7 @@ const ExploreSection = () => {
   ];
   return (
     <Grid
+      id="explore"
       className={classes.root}
       container
       direction="column"

@@ -23,6 +23,7 @@ const Tailer = () => {
   let classes = useStyle();
   return (
     <Grid
+      id="contact"
       className={classes.root}
       container
       direction="column"

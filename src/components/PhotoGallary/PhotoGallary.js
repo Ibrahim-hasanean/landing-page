@@ -17,7 +17,7 @@ const PhotoGallary = () => {
   let classes = useStyle();
 
   return (
-    <Grid container>
+    <Grid id="gallary" container>
       <Grid item xs={12} className={classes.span}></Grid>
       <Grid item container justify="center" xs={12}>
         <Typography className={classes.purpletext} variant="h6">

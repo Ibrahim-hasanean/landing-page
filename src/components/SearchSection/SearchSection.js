@@ -20,7 +20,13 @@ let useStyle = makeStyles(() => ({
 const SearchSection = () => {
   let classes = useStyle();
   return (
-    <Grid className={classes.root} color="primary" container justify="center">
+    <Grid
+      id="search"
+      className={classes.root}
+      color="primary"
+      container
+      justify="center"
+    >
       <Paper className={classes.paper}>
         <form className={classes.form} noValidate autoComplete="off">
           <TextField
