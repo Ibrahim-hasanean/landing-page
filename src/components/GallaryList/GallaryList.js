@@ -11,8 +11,6 @@ import beach1 from "../../assets/images/beach2.jpg";
 import beach2 from "../../assets/images/beach2.jpg";
 import beach3 from "../../assets/images/beach3.jpg";
 import beach4 from "../../assets/images/beach4.jpeg";
-import beach5 from "../../assets/images/beach5.jpg";
-import beach6 from "../../assets/images/beach6.jpg";
 const useStyles = makeStyles((theme) => ({
   root: {},
   image: {
